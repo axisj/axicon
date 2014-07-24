@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1.0, minimum-scale=1" />
+
+    <link rel="shortcut icon" href="http://dev.axisj.com/ui/axisj.ico" type="image/x-icon" />
+    <link rel="icon" href="http://dev.axisj.com/ui/axisj.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://dev.axisj.com/ui/AXJ.png" />
+    <link rel="apple-touch-icon-precomposed" href="http://dev.axisj.com/ui/AXJ.png" />
+
+    <meta property="og:image" content="http://dev.axisj.com/samples/_img/axisj_sns.png" />
+    <meta property="og:site_name" content="AXIcon - axisj, font icon project in south korea" />
+    <meta property="og:description" id="meta_description" content="한국형 폰트아이콘 프로젝트 액시콘(AXIcon), AXISJ가 선도 합니다. Opensource Javascript UI Framework AXISJ " />
+
+    <title>AXIcon BETA - AXISJ.com</title>
+
+    <link rel="stylesheet" type="text/css" href="axicon/axicon.css" />
+    <link rel="stylesheet" type="text/css" href="resource/layout.css" />
+    <link rel="stylesheet" type="text/css" href="http://dev.axisj.com/ui/cocker/AXJ.min.css" />
+
+    <script type="text/javascript" src="http://dev.axisj.com/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="http://dev.axisj.com/dist/AXJ.min.js"></script>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+<div class="search-box">
+    <div class="search-box-wrap">
+        <form onsubmit="return false;">
+            <i class="axi axi-axicon" style="font-size: 20px;vertical-align: middle;line-height: 25px;"></i>
+            <input type="text" id="search-word" class="AXInput W200" placeholder="검색어를 입력하세요" />
+            <button class="AXButton Green" onclick="fnObj.search();"><i class="axi axi-search"></i></button>
+            <button class="AXButton" onclick="fnObj.reset();" title="reset search"><i class="axi axi-history-back"></i></button>
+            <button type="button" class="AXButton" onclick="location.href = 'axicon.zip';"><i class="axi axi-download"></i> Down.</button>
+            <button type="button" class="AXButton" onclick="location.href = 'license.html';" title="infomation"><i class="axi axi-json-undefined5"></i><span class="dx-span">Info.</span></button>
+        </form>
+    </div>
+</div>
+<div class="content-side">
+    <div id="fonts-target"></div>
+</div>
+<div class="basket-side">
+    <h3><i class="axi axi-shopping-cart"></i> AXIcon Basket</h3>
+    <div id="basket-scroll">
+        <div id="basket-target" style="clear:both"></div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="resource/index.js"></script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-38119279-4', 'auto');
+    ga('send', 'pageview');
+
+</script>
+</html>
+
