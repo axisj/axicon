@@ -1,5 +1,12 @@
 var fnObj = {
-	fontGroup:[
+	fontGroup:{
+		"0":{name:"AXIcon", url:"http://axisj.com"},
+		"1":{name:"Meteocons", url:"http://www.alessioatzeni.com/meteocons/"},
+		"2":{name:"Font Awesome", url:"http://fortawesome.github.io/Font-Awesome/"},
+		"3":{name:"ionicons", url:"http://ionicons.com/"},
+		"4":{name:"Feather", url:"http://colebemis.com/feather/"}
+	},
+	/*
 		{name:"AXIcon", url:"http://axisj.com"},
 		{name:"AXIcon", url:"http://axisj.com"},
 		{name:"Font Awesome", url:"http://fortawesome.github.io/Font-Awesome/"},
@@ -7,6 +14,7 @@ var fnObj = {
 		{name:"ionicons", url:"http://ionicons.com/"},
 		{name:"Feather", url:"http://colebemis.com/feather/"}
 	],
+	*/
 	fonts:{},
 	fonts_target:null,
 	basket_target:null,
