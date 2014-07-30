@@ -113,7 +113,7 @@ var fnObj = {
 				po.push('<i id="basket-i-index-' + iconIndex + '" class="basketIcon axi"></i>');
 
 				po.push('<label class="AXInputLabel"><input type="text" class="AXInput tag" value="<i class=&quot;axi axi-' + basket[iconIndex].properties.name + '&quot;&gt;</i&gt;" readonly="readonly" onclick="select();" /></label>');
-				po.push('<label class="AXInputLabel"><input type="text" class="AXInput tagie" value="" readonly="readonly" onclick="select();" /><span>iefix</span></label>');
+				//po.push('<label class="AXInputLabel"><input type="text" class="AXInput tagie" value="" readonly="readonly" onclick="select();" /><span>iefix</span></label>');
 				po.push('<label class="AXInputLabel"><input type="text" class="AXInput code" value="axi axi-' + basket[iconIndex].properties.name + '" readonly="readonly" onclick="select();" /></label>');
 
 				po.push('<label class="AXInputLabel"><input type="text" class="AXInput unicode" value="&#x' + basket[iconIndex].properties.code.toString(16) + '" readonly="readonly" onclick="select();" /><span>Code</span>');
