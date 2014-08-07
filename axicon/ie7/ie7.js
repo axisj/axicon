@@ -13,6 +13,16 @@
 		el.innerHTML = '<span style="font-family: \'axicon\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'axi-cancer': '&#xe67b;',
+		'axi-cardiovascular-disease': '&#xe67c;',
+		'axi-dental': '&#xe67d;',
+		'axi-endocrine-abnormality': '&#xe67e;',
+		'axi-gynecological-disorders': '&#xe67f;',
+		'axi-Internal-disease': '&#xe680;',
+		'axi-organ-transplant': '&#xe681;',
+		'axi-plastic-sugery': '&#xe682;',
+		'axi-spinal-rehabilitation': '&#xe683;',
+		'axi-surgical-diseases': '&#xe684;',
 		'axi-bmg-booster': '&#xe636;',
 		'axi-bmg-business-idea': '&#xe637;',
 		'axi-bmg-buzzmaker': '&#xe638;',
