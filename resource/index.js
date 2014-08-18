@@ -55,6 +55,7 @@ var fnObj = {
 	},
 	printFont: function(se){
 		var po = [];
+
 		//trace(fnObj.fonts.icons.length);
 		var groupName = "";
 		for(var i=0;i<fnObj.fonts.icons.length;i++){

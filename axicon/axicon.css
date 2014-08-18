@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'axicon';
-  src: url('fonts/axicon.eot?yy7zug');
-  src: url('fonts/axicon.eot?#iefixyy7zug') format('embedded-opentype'), url('fonts/axicon.woff?yy7zug') format('woff'), url('fonts/axicon.ttf?yy7zug') format('truetype'), url('fonts/axicon.svg?yy7zug#axicon') format('svg');
+  src: url('fonts/axicon.eot?nnldba');
+  src: url('fonts/axicon.eot?#iefixnnldba') format('embedded-opentype'), url('fonts/axicon.woff?nnldba') format('woff'), url('fonts/axicon.ttf?nnldba') format('truetype'), url('fonts/axicon.svg?nnldba#axicon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -17,6 +17,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.axi-Endocrine-abnormality:before {
+  content: "\e67e";
+}
+.axi-Internal-disease:before {
+  content: "\e680";
+}
 .axi-cancer:before {
   content: "\e67b";
 }
@@ -26,14 +32,8 @@
 .axi-dental:before {
   content: "\e67d";
 }
-.axi-endocrine-abnormality:before {
-  content: "\e67e";
-}
 .axi-gynecological-disorders:before {
   content: "\e67f";
-}
-.axi-Internal-disease:before {
-  content: "\e680";
 }
 .axi-organ-transplant:before {
   content: "\e681";
