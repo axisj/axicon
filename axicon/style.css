@@ -1,15 +1,15 @@
 @font-face {
 	font-family: 'axicon';
-	src:url('fonts/axicon.eot?nnldba');
-	src:url('fonts/axicon.eot?#iefixnnldba') format('embedded-opentype'),
-		url('fonts/axicon.woff?nnldba') format('woff'),
-		url('fonts/axicon.ttf?nnldba') format('truetype'),
-		url('fonts/axicon.svg?nnldba#axicon') format('svg');
+	src:url('fonts/axicon.eot?-h22ij2');
+	src:url('fonts/axicon.eot?#iefix-h22ij2') format('embedded-opentype'),
+		url('fonts/axicon.woff?-h22ij2') format('woff'),
+		url('fonts/axicon.ttf?-h22ij2') format('truetype'),
+		url('fonts/axicon.svg?-h22ij2#axicon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
-.axi {
+[class^="axi-"], [class*=" axi-"] {
 	font-family: 'axicon';
 	speak: none;
 	font-style: normal;
@@ -23,6 +23,30 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.axi-happytalk-elephant:before {
+	content: "\e685";
+}
+.axi-happytalk-counselor:before {
+	content: "\e686";
+}
+.axi-happytalk-num-1:before {
+	content: "\e687";
+}
+.axi-happytalk-num-2:before {
+	content: "\e688";
+}
+.axi-happytalk-num-3:before {
+	content: "\e689";
+}
+.axi-happytalk-num-4:before {
+	content: "\e68a";
+}
+.axi-happytalk-num-5:before {
+	content: "\e68b";
+}
+.axi-icon_robot:before {
+	content: "\e68c";
+}
 .axi-Endocrine-abnormality:before {
 	content: "\e67e";
 }
