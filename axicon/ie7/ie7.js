@@ -20,7 +20,7 @@
 		'axi-happytalk-num-3': '&#xe689;',
 		'axi-happytalk-num-4': '&#xe68a;',
 		'axi-happytalk-num-5': '&#xe68b;',
-		'axi-icon_robot': '&#xe68c;',
+		'axi-happytalk-robot': '&#xe68c;',
 		'axi-Endocrine-abnormality': '&#xe67e;',
 		'axi-Internal-disease': '&#xe680;',
 		'axi-cancer': '&#xe67b;',

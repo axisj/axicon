@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'axicon';
-  src: url('fonts/axicon.eot?-h22ij2');
-  src: url('fonts/axicon.eot?#iefix-h22ij2') format('embedded-opentype'), url('fonts/axicon.woff?-h22ij2') format('woff'), url('fonts/axicon.ttf?-h22ij2') format('truetype'), url('fonts/axicon.svg?-h22ij2#axicon') format('svg');
+  src: url('fonts/axicon.eot?kqviz8');
+  src: url('fonts/axicon.eot?#iefixkqviz8') format('embedded-opentype'), url('fonts/axicon.woff?kqviz8') format('woff'), url('fonts/axicon.ttf?kqviz8') format('truetype'), url('fonts/axicon.svg?kqviz8#axicon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -39,7 +39,7 @@
 .axi-happytalk-num-5:before {
   content: "\e68b";
 }
-.axi-icon_robot:before {
+.axi-happytalk-robot:before {
   content: "\e68c";
 }
 .axi-Endocrine-abnormality:before {
