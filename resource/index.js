@@ -1,10 +1,11 @@
 var fnObj = {
 	fontGroup:{
 		"0":{name:"AXIcon", url:"http://axisj.com"},
-		"1":{name:"Meteocons", url:"http://www.alessioatzeni.com/meteocons/"},
+		"1":{name:"Material Design Icons", url:"https://github.com/google/material-design-icons"},
 		"2":{name:"Font Awesome", url:"http://fortawesome.github.io/Font-Awesome/"},
-		"3":{name:"ionicons", url:"http://ionicons.com/"},
-		"4":{name:"Feather", url:"http://colebemis.com/feather/"}
+		"3":{name:"Meteocons", url:"http://www.alessioatzeni.com/meteocons/"},
+		"4":{name:"ionicons", url:"http://ionicons.com/"},
+		"5":{name:"Feather", url:"http://colebemis.com/feather/"}
 	},
 	/*
 		{name:"AXIcon", url:"http://axisj.com"},
@@ -60,7 +61,7 @@ var fnObj = {
 		var groupName = "";
 		for(var i=0;i<fnObj.fonts.icons.length;i++){
 			var item;
-			if(!axf.isEmpty(se)){
+			if(se){
 				item = fnObj.fonts.icons[i];
 				if(item.properties.name.search(se) != -1 || (item.icon.tags||[]).join(",").search(se) != -1){
 
@@ -69,19 +70,22 @@ var fnObj = {
 				}
 			}else{
 				item = fnObj.fonts.icons[i];
-
 			}
+
 			if(item){
+
 				if(groupName != fnObj.fontGroup[item.setIdx].name){
 					groupName = fnObj.fontGroup[item.setIdx].name;
 					po.push('<div class="fontGroupName">'+groupName + ' <a href="'+fnObj.fontGroup[item.setIdx].url+'" target="_blank">' + fnObj.fontGroup[item.setIdx].url +  '</a>' +'</div>');
 				}
+
 				po.push('<div class="font-item" id="axicon-index-' + i + '">');
 					po.push('<i id="axicon-i-index-' + i + '" class="axi axi-'+ item.properties.name +'"></i>');
 					po.push('<label class="letter-name" id="axicon-letter-index-' + i + '">' + item.properties.name + '</label>');
 					po.push('<input type="hidden" id="axicon-inp-' + i + '" value="&#x' + item.properties.code.toString(16) + '" readonly="readonly" />');
 				po.push('</div>');
 			}
+
 		}
 		po.push('<div style="clear:both;"></div>');
 
