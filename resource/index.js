@@ -121,8 +121,15 @@ var fnObj = {
 				//po.push('<label class="AXInputLabel"><input type="text" class="AXInput tagie" value="" readonly="readonly" onclick="select();" /><span>iefix</span></label>');
 				po.push('<label class="AXInputLabel"><input type="text" class="AXInput code" value="axi axi-' + basket[iconIndex].properties.name + '" readonly="readonly" onclick="select();" /></label>');
 
-				po.push('<label class="AXInputLabel"><input type="text" class="AXInput unicode" value="&#x' + basket[iconIndex].properties.code.toString(16) + '" readonly="readonly" onclick="select();" /><span>Code</span>');
+				po.push('<label class="AXInputLabel">');
+				po.push('<input type="text" class="AXInput unicode" value="&#x' + basket[iconIndex].properties.code.toString(16) + '" readonly="readonly" onclick="select();" /></label>');
 				po.push('</label>');
+				po.push('<label class="AXInputLabel">');
+				po.push('<input type="text" class="AXInput realcode" value="\\' + basket[iconIndex].properties.code.toString(16) + '" readonly="readonly" onclick="select();"/>');
+				po.push('</label>');
+
+
+
 				po.push('<a class="remove-link" href="javascript:;" onclick="fnObj.onclickIcon(\'a-'+ iconIndex +'\');"><i class="axi axi-times-circle"></i></a>');
 				po.push('<a class="likefind-link" href="javascript:;" onclick="fnObj.likeFind(' + iconIndex + ');"><i class="axi axi-search"></i></a>');
 
