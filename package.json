@@ -1,6 +1,6 @@
 ﻿{
   "name": "axicon",
-  "version": "1.4",
+  "version": "0.2",
   "devDependencies": {
 	  "grunt": "~0.4.5",
 	  "grunt-contrib-jshint": "~0.10.0",
