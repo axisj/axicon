@@ -1,7 +1,7 @@
 {
 	"packageManager": "github",
 	"name": "axicon",
-	"repo": "axisj-com/axicon",
+	"repo": "axisj/axicon",
 	"files": {
 		"basePath": "axicon/",
 		"include": [
